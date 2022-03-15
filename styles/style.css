@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../img/steaks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color:rgb(255, 153, 0) ;
+    border-radius:10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Shadows Into Light', Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid white;
+    
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+p{
+    padding: 10px 0;
+    font-weight: 700;
+}
+
